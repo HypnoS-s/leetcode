@@ -19,4 +19,36 @@
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ListNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertionSortList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveElements.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteDuplicates.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IsPalindrome.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeTwoLists.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveNthFromEnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GetIntersectionNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

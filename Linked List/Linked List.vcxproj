@@ -148,6 +148,18 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DeleteDuplicates.h" />
+    <ClInclude Include="DeleteNode.h" />
+    <ClInclude Include="GetIntersectionNode.h" />
+    <ClInclude Include="InsertionSortList.h" />
+    <ClInclude Include="IsPalindrome.h" />
+    <ClInclude Include="ListNode.h" />
+    <ClInclude Include="MergeTwoLists.h" />
+    <ClInclude Include="RemoveElements.h" />
+    <ClInclude Include="RemoveNthFromEnd.h" />
+    <ClInclude Include="ReverseList.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
