@@ -151,6 +151,7 @@
   <ItemGroup>
     <ClInclude Include="DeleteDuplicates.h" />
     <ClInclude Include="DeleteNode.h" />
+    <ClInclude Include="DetectCycle.h" />
     <ClInclude Include="GetIntersectionNode.h" />
     <ClInclude Include="InsertionSortList.h" />
     <ClInclude Include="IsPalindrome.h" />
