@@ -150,6 +150,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DeleteDuplicates.h" />
+    <ClInclude Include="DeleteDuplicates2.h" />
     <ClInclude Include="DeleteNode.h" />
     <ClInclude Include="DetectCycle.h" />
     <ClInclude Include="GetIntersectionNode.h" />

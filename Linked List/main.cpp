@@ -1,4 +1,4 @@
-#include "DetectCycle.h"
+#include "DeleteDuplicates2.h"
 
 #include <iostream>
 using std::cout;
@@ -8,13 +8,13 @@ int main()
 {
 
 	ListNode d(4);
-	ListNode c(3);
-	ListNode b(2);
+	ListNode c(1);
+	ListNode b(1);
 	ListNode a(1);
 	a.next = &b;
 	b.next = &c;
-	c.next = &d;
-	d.next = &b;
+	//c.next = &d;
+	//d.next = &b;
 
 
 	//ListNode *p = &a;
@@ -36,12 +36,12 @@ int main()
 	//}
 	//cout << endl;
 	Solution s;
-	cout << s.detectCycle(&a)->val << endl;
-	//p = s.insertionSortList(&a);
-	//while (p)
-	//{
-	//	cout << p->val << ' ';
-	//	p = p->next;
-	//}
-	//cout << endl;
+	
+	auto p = s.deleteDuplicates(&a);
+	while (p)
+	{
+		cout << p->val << ' ';
+		p = p->next;
+	}
+	cout << endl;
 }
