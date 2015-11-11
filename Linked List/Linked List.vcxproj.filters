@@ -56,5 +56,14 @@
     <ClInclude Include="DeleteDuplicates2.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="SortList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HasCycle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SwapPairs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

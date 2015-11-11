@@ -161,6 +161,9 @@
     <ClInclude Include="RemoveElements.h" />
     <ClInclude Include="RemoveNthFromEnd.h" />
     <ClInclude Include="ReverseList.h" />
+    <ClInclude Include="SortList.h" />
+    <ClInclude Include="HasCycle.h" />
+    <ClInclude Include="SwapPairs.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
