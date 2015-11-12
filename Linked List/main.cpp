@@ -1,5 +1,4 @@
-#include "SwapPairs.h"
-
+#include "Partition.h"
 #include <iostream>
 #include <vector>
 using std::cout;
@@ -7,7 +6,8 @@ using std::endl;
 
 int main()
 {
-	std::vector<int> vi = {};
+	std::vector<int> vi = {1,4,3,2,5,2};
+
 
 	size_t N = vi.size();
 	std::vector<ListNode> v(N,0);
@@ -17,6 +17,18 @@ int main()
 		v[i].val = vi[i];
 		v[i].next = (i == N - 1) ? NULL : &v[i + 1];
 	}
+
+
+	//std::vector<int> vi2 = {5,6,4,9,9,9};
+	//size_t N2 = vi2.size();
+	//std::vector<ListNode> v2(N2, 0);
+
+	//for (size_t i = 0; i < N2; i++)
+	//{
+	//	v2[i].val = vi2[i];
+	//	v2[i].next = (i == N2 - 1) ? NULL : &v2[i + 1];
+	//}
+
 
 	//ListNode d(4);
 	//ListNode c(1);
@@ -51,7 +63,7 @@ int main()
 	Solution s;
 	ListNode* p = v.size()?&v[0]:NULL;
 
-	  p = s.swapPairs(p);
+	p = s.partition(p, 3);
 
 //	auto p = &a;
 	while (p)
