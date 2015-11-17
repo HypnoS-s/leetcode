@@ -150,6 +150,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AddTwoNumbers.h" />
+    <ClInclude Include="CopyRandomList.h" />
     <ClInclude Include="DeleteDuplicates.h" />
     <ClInclude Include="DeleteDuplicates2.h" />
     <ClInclude Include="DeleteNode.h" />
@@ -160,12 +161,18 @@
     <ClInclude Include="ListNode.h" />
     <ClInclude Include="MergeTwoLists.h" />
     <ClInclude Include="Partition.h" />
+    <ClInclude Include="RandomListNode.h" />
     <ClInclude Include="RemoveElements.h" />
     <ClInclude Include="RemoveNthFromEnd.h" />
+    <ClInclude Include="ReverseBetween.h" />
     <ClInclude Include="ReverseList.h" />
+    <ClInclude Include="RotateRight.h" />
+    <ClInclude Include="SortedListToBST.h" />
     <ClInclude Include="SortList.h" />
     <ClInclude Include="HasCycle.h" />
     <ClInclude Include="SwapPairs.h" />
+    <ClInclude Include="TreeNode.h" />
+    <ClInclude Include="ReorderList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

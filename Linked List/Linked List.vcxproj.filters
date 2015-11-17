@@ -71,5 +71,26 @@
     <ClInclude Include="Partition.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="SortedListToBST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseBetween.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReorderList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateRight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyRandomList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomListNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
