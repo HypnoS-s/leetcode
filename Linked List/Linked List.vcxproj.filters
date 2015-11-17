@@ -92,5 +92,11 @@
     <ClInclude Include="RandomListNode.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="MergeKLists.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseKGroup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

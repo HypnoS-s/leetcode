@@ -159,6 +159,7 @@
     <ClInclude Include="InsertionSortList.h" />
     <ClInclude Include="IsPalindrome.h" />
     <ClInclude Include="ListNode.h" />
+    <ClInclude Include="MergeKLists.h" />
     <ClInclude Include="MergeTwoLists.h" />
     <ClInclude Include="Partition.h" />
     <ClInclude Include="RandomListNode.h" />
@@ -173,6 +174,7 @@
     <ClInclude Include="SwapPairs.h" />
     <ClInclude Include="TreeNode.h" />
     <ClInclude Include="ReorderList.h" />
+    <ClInclude Include="ReverseKGroup.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
