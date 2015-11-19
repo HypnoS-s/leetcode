@@ -21,6 +21,15 @@
     <ClInclude Include="Climbing Stairs.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="House Robber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Range Sum Query 2D - Immutable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Minimum Path Sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
