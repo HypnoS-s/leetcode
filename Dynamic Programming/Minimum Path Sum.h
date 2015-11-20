@@ -17,6 +17,7 @@ Hide Tags Array Dynamic Programming
 Hide Similar Problems (M) Unique Paths (H) Dungeon Game
 */
 
+//28ms
 class Solution {
 public:
 	vector<vector<int>> M;
@@ -24,37 +25,26 @@ public:
 	int minPathSum(vector<vector<int>>& grid) {
 		m = grid.size();
 		n = m ? grid[0].size() : 0;
+		if (!m||!n)
+		{
+			return 0;
+		}
 		M.resize(m,vector<int>(n));
 
-		int i = 0, j = 1;
 		M[0][0] = grid[0][0];
-		while (true)
+		for (int j = 1; j < n; j++)
 		{
-			M[i][j] = min((j ? M[i][j - 1] : INT_MAX), (i ? M[i - 1][j] : INT_MAX)) + grid[i][j];
-			if (j==0)
-			{
-				j = i + 1;
-				i = 0;
-			}
-			if (i == m-1)
-			{
-				j=
-			}
-
+			M[0][j] = M[0][j - 1] + grid[0][j];
 		}
-		for (int k = 0; k < m+n-1; k++)
+		for (int i = 1; i < m; i++)
 		{
-			for (int i = 0,int j=k-i; i < m && j; i++)
+			M[i][0] = M[i - 1][0] + grid[i][0];
+		}
+		for (int i = 1; i < m; i++)
+		{
+			for (int j = 1; j < n; j++)
 			{
-			//	j = k - i;
-				if (i==0&&j==0)
-				{
-					M[i][j] = grid[i][j];
-				}
-				else
-				{
-					M[i][j] = min((j ? M[i][j - 1] : INT_MAX), (i ? M[i - 1][j] : INT_MAX)) + grid[i][j];
-				}
+				M[i][j] = min(M[i-1][j],M[i][j-1]) + grid[i][j];
 			}
 		}
 		return M[m - 1][n - 1];

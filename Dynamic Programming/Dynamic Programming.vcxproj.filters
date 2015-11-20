@@ -30,6 +30,21 @@
     <ClInclude Include="Minimum Path Sum.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Unique Paths II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Unique Paths.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="House Robber II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Unique Binary Search Trees.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Unique Binary Search Trees II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
