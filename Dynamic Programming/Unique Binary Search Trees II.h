@@ -39,20 +39,15 @@ public:
 	vector<TreeNode*> subTree(int i, int j) {
 		vector<TreeNode*> Tree;
 		if (i==j)
-		{
 			Tree.push_back(new TreeNode(i));
-		}
 		else if (i>j)
-		{
 			Tree.push_back(NULL);
-		}
 		else
 		{
 			for (int k = i; k <= j; k++)
 			{
 				auto left = subTree(i, k - 1);
 				auto right = subTree(k + 1, j);
-				//TreeNode root(k);
 				for (auto l : left)
 					for (auto r : right)
 					{
