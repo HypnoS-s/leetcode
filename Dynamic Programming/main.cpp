@@ -1,4 +1,4 @@
-#include "Unique Binary Search Trees.h"
+#include "Unique Binary Search Trees II.h"
 #include <iostream>
 #include <chrono>
 using std::cout;
@@ -15,9 +15,9 @@ int main()
 	start = std::chrono::system_clock::now();
 
 	Solution s;
-	cout<<s.numTrees(0)<<endl;
+	s.generateTrees(3);
 
-	
+
 	end = std::chrono::system_clock::now();
 	std::chrono::duration<double> elapsed_seconds = end - start;
 
