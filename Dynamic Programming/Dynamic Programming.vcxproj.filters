@@ -45,6 +45,15 @@
     <ClInclude Include="Unique Binary Search Trees II.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Perfect Squares.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Decode Ways.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Longest Increasing Subsequence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

@@ -1,4 +1,4 @@
-#include "Unique Binary Search Trees II.h"
+#include "Perfect Squares.h"
 #include <iostream>
 #include <chrono>
 using std::cout;
@@ -15,8 +15,9 @@ int main()
 	start = std::chrono::system_clock::now();
 
 	Solution s;
-	s.generateTrees(3);
-
+	cout << s.numSquares(0) << endl;
+	cout << s.numSquares(10) << endl;
+	cout << s.numSquares(110) << endl;
 
 	end = std::chrono::system_clock::now();
 	std::chrono::duration<double> elapsed_seconds = end - start;

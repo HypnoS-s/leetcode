@@ -149,7 +149,10 @@
     <ClInclude Include="Climbing Stairs.h" />
     <ClInclude Include="House Robber II.h" />
     <ClInclude Include="House Robber.h" />
+    <ClInclude Include="Longest Increasing Subsequence.h" />
     <ClInclude Include="Minimum Path Sum.h" />
+    <ClInclude Include="Decode Ways.h" />
+    <ClInclude Include="Perfect Squares.h" />
     <ClInclude Include="Range Sum Query - Immutable.h" />
     <ClInclude Include="Range Sum Query 2D - Immutable.h" />
     <ClInclude Include="Unique Binary Search Trees II.h" />
