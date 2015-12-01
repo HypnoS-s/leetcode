@@ -146,6 +146,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Best Time to Buy and Sell Stock II.h" />
+    <ClInclude Include="Best Time to Buy and Sell Stock III.h" />
+    <ClInclude Include="Best Time to Buy and Sell Stock IV.h" />
+    <ClInclude Include="Best Time to Buy and Sell Stock.h" />
     <ClInclude Include="Climbing Stairs.h" />
     <ClInclude Include="House Robber II.h" />
     <ClInclude Include="House Robber.h" />

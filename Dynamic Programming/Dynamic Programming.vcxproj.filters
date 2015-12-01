@@ -54,6 +54,18 @@
     <ClInclude Include="Longest Increasing Subsequence.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Best Time to Buy and Sell Stock III.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Best Time to Buy and Sell Stock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Best Time to Buy and Sell Stock II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Best Time to Buy and Sell Stock IV.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
