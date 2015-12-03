@@ -66,6 +66,15 @@
     <ClInclude Include="Best Time to Buy and Sell Stock IV.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Best Time to Buy and Sell Stock with Cooldown.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Maximum Subarray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Maximum Product Subarray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
