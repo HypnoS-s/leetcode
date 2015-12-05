@@ -75,6 +75,12 @@
     <ClInclude Include="Maximum Product Subarray.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Ugly Number.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ugly Number II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

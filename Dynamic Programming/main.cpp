@@ -1,4 +1,4 @@
-#include "Maximum Product Subarray.h"
+#include "Ugly Number II.h"
 #include <iostream>
 #include <chrono>
 using std::cout;
@@ -18,7 +18,11 @@ int main()
 	start = std::chrono::high_resolution_clock::now();
 
 	Solution s;
-	cout << s.maxProduct(v) << endl;
+
+	//for (int i = 1; i<30; i++)
+	//	cout << i << ": " << (s.nthUglyNumber(i)) << endl;
+	cout <<  (s.nthUglyNumber(11)) << endl;
+
 
 	end = std::chrono::high_resolution_clock::now();
 	//std::chrono::duration<double> elapsed_seconds = end - start;

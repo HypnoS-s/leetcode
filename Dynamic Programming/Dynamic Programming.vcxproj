@@ -162,6 +162,8 @@
     <ClInclude Include="Perfect Squares.h" />
     <ClInclude Include="Range Sum Query - Immutable.h" />
     <ClInclude Include="Range Sum Query 2D - Immutable.h" />
+    <ClInclude Include="Ugly Number II.h" />
+    <ClInclude Include="Ugly Number.h" />
     <ClInclude Include="Unique Binary Search Trees II.h" />
     <ClInclude Include="Unique Binary Search Trees.h" />
     <ClInclude Include="Unique Paths II.h" />
