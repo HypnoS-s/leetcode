@@ -19,9 +19,15 @@ int main()
 
 	Solution s;
 
-	//for (int i = 1; i<30; i++)
-	//	cout << i << ": " << (s.nthUglyNumber(i)) << endl;
-	cout <<  (s.nthUglyNumber(11)) << endl;
+	int a = 123;
+	int b = 12341;
+	int c = 1231;
+	//for (int i = 0; i < 30000; i++)
+	//	int x = std::min(a,std::min(b,c));
+	cout <<  (s.nthUglyNumber(100)) << endl;
+	cout <<  (s.nthUglyNumber(10)) << endl;
+
+
 
 
 	end = std::chrono::high_resolution_clock::now();
@@ -30,7 +36,7 @@ int main()
 	//std::chrono::nanoseconds nano = end - start;
 	//cout << "time: " << nano.count() << "us" << endl;
 	std::chrono::microseconds ms = std::chrono::duration_cast<std::chrono::microseconds>(end - start);
-	cout << "time: " << ms.count() << "ms" << endl;
+	cout << "time: " << ms.count() << "us" << endl;
 
 
 	return 0;
